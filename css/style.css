@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+  background: white;
+}
+
+table{
+  border: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+td{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arvo;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arvo;
+}
+
+button {
+  text-align: center;
+  font-family: Arvo;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #FF3333;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #660000;
+  margin-left: 2px;
+}
+
+button:hover {
+  background-color: #FF0000;
+}
+
+button:active {
+  background-color: #FF0000;
+  box-shadow: 0 3px #660000;
+  transform: translateY(2px);
+}
+
+.panel {
+  text-align: center;
+}
+
+.color0 {
+  background-color: #E0E0E0;
+}
+.color1{
+  background-color: red;
+}
